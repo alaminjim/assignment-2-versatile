@@ -1,0 +1,307 @@
+@media screen and (max-width:576px) {
+    
+    .navbar,
+    .nav-anchor,
+    .header-section,
+    .details{
+        flex-direction: column;
+    }
+    .header{
+        width: 393px;
+        height: 964px;
+    }
+    .header-text{
+        width: 530px;
+        padding-left: 15px;
+        font-size: 2rem;
+    }
+    .fitness{
+        margin-left: 10px;
+        font-size: 2.15rem;
+        font-weight: 800;
+    }
+    .header-text h1{
+        font-size: 2.15rem;
+        font-weight: 900;
+    }
+    .header-text p{
+        width: 274px;
+        height: 96px;
+        padding-top: 10px;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .btn{
+        width: 352px;
+        height: 54px;
+        margin-top: 15px;
+    }
+    .btn-1{
+        width: 169px;
+        height: 54px;
+        margin-top: 0;
+    }
+    .btn-2{
+       width: 169px; 
+       height: 54px;
+       margin-left: 0;
+       margin-top: 0;
+    }
+    .header-img{
+     padding-left: 0;
+     margin-left: 27px;
+    }
+    .btn-container{
+        border: none;
+        margin: 0;
+    }
+    .humbergurt-menu{
+        display: block;
+        margin-top: 15px;
+    }
+    .btn-container{
+        display: none;
+    }
+    .navbar{
+        flex-direction: row;
+        margin-right: 60px;
+    }
+    .workout-badge{
+        width: 165px;
+        height: 84px;
+        margin-top: -530px;
+        margin-left: 183px;
+    }
+    .details-badge{
+        width: 175px;
+        height: 72px;
+        margin-left: -10px;
+        margin-bottom: 249px;
+    }
+    .details{
+        flex-direction: row;
+    }
+    /* habbit change section */
+
+    .habbit{
+        width: 338px;
+        height: 1390px;
+        margin: 0 auto;
+        flex-direction: column;
+        margin-left: 70px;
+    }
+    .habbit-change h1{
+        width: 370px;
+        height: 38px;
+        font-size: 2rem;
+        margin-top: 25px;
+    }
+    .habbit-card{
+        gap: 20px;
+        display: grid;
+        grid-template-areas: 
+        "a"
+        "b"
+        "c"
+        "d"
+        ;
+    }
+    .first-habbit-card,
+    .second-habbit-card,
+    .third-habbit-card,
+    .fourth-habbit-card,
+    h4 p{
+        margin-right: 777px;
+        margin-top: 5px;
+        gap: 15px;
+    }
+    /* runner section */
+    .runner{
+        width: 355px;
+        height: 660px;
+        margin: 0;
+        margin-left: 28px;
+        flex-direction: column;
+    }
+    .runner-text h2{
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .runner-text p{
+        font-size: 0.875rem;
+        font-weight: 400;
+    }
+    .runner-btn{
+        width: 287px;
+        height: 54px;
+    }
+    .runner-img{
+        width: 287px;
+        margin: 0;
+        margin-left: 22px;
+        margin-bottom: 80px; 
+    }
+/* Trainings and Exercises section */
+    .tranning-execrise, h2 P{
+        width: 355px;
+        height: 162px;
+        margin-left: 15px;
+    }
+    .tranning-execrise h2{
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .tranning-execrise p{
+        font-size: 0.875rem;
+        font-weight: 400;
+    }
+    .tranning-img-container{
+        width: 353px;
+        height: 253px;
+        margin-left: 15px;
+        display: grid;
+        position: absolute;
+    }
+    .imgs-1{
+        position: relative;
+        grid-column: 1 /span 6;
+    }
+    .colour-1 h3{
+        margin: 0;
+        margin-top: 100px;
+        margin-left: 15px;
+        color: rgb(255, 255, 255);
+    }
+    .img-2{
+        grid-column: 7 /span 12;
+    }
+    .img-4{
+        grid-column: 1 /span 6;
+    }
+    .colour-4 h3{
+        margin: 0;
+        margin-top: 100px;
+        margin-left: 15px;
+    }
+    .img-5{
+        grid-column: 7 /span 12;
+    }
+    .colour-5 h3{
+        margin: 0;
+        margin-top: 100px;
+        margin-left: 15px;
+    }
+    .img-3{
+        display: none;
+    }
+    .img-6{
+        display: none;
+    }
+    /* bmi-calculate */
+    .bmi-calculate-text{
+        width: 353px;
+        height: 124px;
+        margin: 0;
+        margin-left: 29px;
+    }
+    .bmi-calculate-text h1{
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .bmi-calculate-chart{
+        width: 394px;
+        height: 775px;
+        margin-left: 20px;
+        flex-direction: column;
+    }
+    .bmi-status h1{
+        font-size: 1rem;
+        font-weight: 900;
+        margin: 0;
+        margin-left: 30px;
+    }
+    .bmi-status table{
+        margin: 0;
+        margin-top: 25px;
+        margin-left: 30px;
+    }
+    .your-bmi-status{
+        width: 355px;
+        height: 50px;
+    }
+    .your-bmi-status h1{
+        font-size: 1rem;
+        font-weight: 900;
+        margin: 0;
+        margin-left: 30px;
+    }
+    .your-bmi-status p{
+        font-size: 0.875rem;
+        font-weight: 400;
+        margin: 0;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .box{
+        flex-direction: column;
+        margin: 0;
+        margin-top: 35px;
+        margin-left: 30px;
+    }
+    .input-5c select{
+        width: 354px;
+        height: 48px;
+    }
+    .Calculate-btn{
+        margin: 0;
+        margin-top: 34px;
+        margin-left: 30px;
+    }
+    /* meet-our-team */
+    .meet-our-team{
+        width: 310px;
+        height: 124px;
+        margin-left: 45px;
+    }
+    .meet-text h1{
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .meet-text p{
+        font-size: 0.875rem;
+        font-weight: 400;
+    }
+    .meet-team-img{
+        width: 353px;
+        height: 1434px;
+        margin: 0 auto;
+        margin-top: 25px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .meet-team-card-5{
+        display: none;
+    }
+    .meet-team-card-6{
+        display: none;
+    }
+    /* footer-container */
+    .footer-container{
+        margin-top: 1500px;
+        width: 390px;
+        height: 1100px;
+        margin-left: 45px;
+    }
+    .footer-text{
+        margin-left: 30px;
+        flex-direction: column;
+    }
+    .horigental-line{
+        width: 354px;
+        margin: 0;
+        margin-top: 400px;
+        margin-left: 30px;
+    }
+    #footer-last-text{
+        padding-right: 90px;
+    }
+}   
