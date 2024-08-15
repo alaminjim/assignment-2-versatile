@@ -7,11 +7,11 @@
         flex-direction: column;
     }
     .header{
-        width: 393px;
-        height: 964px;
+        width: 100%;
+        height: 962px;
     }
     .header-text{
-        width: 530px;
+        width: 380px;
         padding-left: 15px;
         font-size: 2rem;
     }
@@ -49,7 +49,7 @@
     }
     .header-img{
      padding-left: 0;
-     margin-left: 27px;
+     margin-left: 37px;
     }
     .btn-container{
         border: none;
@@ -85,19 +85,20 @@
 
     .habbit{
         width: 338px;
-        height: 1390px;
+        height: 1490px;
         margin: 0 auto;
         flex-direction: column;
-        margin-left: 70px;
+        margin-left: 30px;
     }
     .habbit-change h1{
-        width: 370px;
+        width: 351px;
         height: 38px;
         font-size: 2rem;
         margin-top: 25px;
     }
     .habbit-card{
         gap: 20px;
+        width: 337px;
         display: grid;
         grid-template-areas: 
         "a"
@@ -111,9 +112,14 @@
     .third-habbit-card,
     .fourth-habbit-card,
     h4 p{
-        margin-right: 777px;
         margin-top: 5px;
         gap: 15px;
+    }
+    .first-habbit-card img,
+    .second-habbit-card img,
+    .third-habbit-card img,
+    .fourth-habbit-card img{
+        margin-left: 72px;
     }
     /* runner section */
     .runner{
@@ -126,26 +132,33 @@
     .runner-text h2{
         font-size: 2rem;
         font-weight: 900;
+        margin-left: 19px;
     }
     .runner-text p{
         font-size: 0.875rem;
         font-weight: 400;
+        margin-left: 19px;
     }
     .runner-btn{
         width: 287px;
         height: 54px;
+        margin-left: 19px;
     }
     .runner-img{
         width: 287px;
         margin: 0;
-        margin-left: 22px;
-        margin-bottom: 80px; 
+        margin-left: 19px;
+        margin-bottom: 80px;
+        padding-top: 0; 
     }
 /* Trainings and Exercises section */
+    .tranning-execrise-img{
+        width: 350px;
+        margin: 0 auto;
+    }
     .tranning-execrise, h2 P{
         width: 355px;
         height: 162px;
-        margin-left: 15px;
     }
     .tranning-execrise h2{
         font-size: 2rem;
@@ -158,7 +171,6 @@
     .tranning-img-container{
         width: 353px;
         height: 253px;
-        margin-left: 15px;
         display: grid;
         position: absolute;
     }
@@ -202,28 +214,27 @@
         width: 353px;
         height: 124px;
         margin: 0;
-        margin-left: 29px;
+        margin-left: 32px;
     }
     .bmi-calculate-text h1{
         font-size: 2rem;
         font-weight: 900;
     }
     .bmi-calculate-chart{
-        width: 394px;
+        width: 100%;
         height: 775px;
-        margin-left: 20px;
         flex-direction: column;
     }
     .bmi-status h1{
         font-size: 1rem;
         font-weight: 900;
         margin: 0;
-        margin-left: 30px;
+        margin-left: 19px;
     }
     .bmi-status table{
         margin: 0;
         margin-top: 25px;
-        margin-left: 30px;
+        margin-left: 19px;
     }
     .your-bmi-status{
         width: 355px;
@@ -233,20 +244,20 @@
         font-size: 1rem;
         font-weight: 900;
         margin: 0;
-        margin-left: 30px;
+        margin-left: 19px;
     }
     .your-bmi-status p{
         font-size: 0.875rem;
         font-weight: 400;
         margin: 0;
         margin-top: 10px;
-        margin-left: 30px;
+        margin-left: 19px;
     }
     .box{
         flex-direction: column;
         margin: 0;
         margin-top: 35px;
-        margin-left: 30px;
+        margin-left: 19px;
     }
     .input-5c select{
         width: 354px;
@@ -255,13 +266,12 @@
     .Calculate-btn{
         margin: 0;
         margin-top: 34px;
-        margin-left: 30px;
+        margin-left: 19px;
     }
     /* meet-our-team */
     .meet-our-team{
         width: 310px;
         height: 124px;
-        margin-left: 45px;
     }
     .meet-text h1{
         font-size: 2rem;
@@ -273,9 +283,10 @@
     }
     .meet-team-img{
         width: 353px;
-        height: 1434px;
+        height: 1494px;
         margin: 0 auto;
-        margin-top: 25px;
+        margin-top: 50px;
+        margin-left: -23px;
         grid-template-columns: repeat(1, 1fr);
     }
     .meet-team-card-5{
@@ -286,22 +297,22 @@
     }
     /* footer-container */
     .footer-container{
-        margin-top: 1500px;
-        width: 390px;
-        height: 1100px;
-        margin-left: 45px;
+        margin-top: 1570px;
+        width: 100%;
+        height: 840px;
     }
     .footer-text{
+        width: 300px;
         margin-left: 30px;
         flex-direction: column;
     }
     .horigental-line{
         width: 354px;
         margin: 0;
-        margin-top: 400px;
+        margin-top: 435px;
         margin-left: 30px;
     }
     #footer-last-text{
-        padding-right: 90px;
+        padding-right: 121px;
     }
 }   
