@@ -323,10 +323,16 @@ body{
     margin: 0 auto;
     padding-top: 15px;
 }
-.border{
+.reaposive-mood-img{
+    border-radius: 20px;
+    width: 100%;
+    margin-left: -20px;
+    margin-top: 50px;
+    display: none;
+}
+.desktop-img{
     border-radius: 20px;
 }
-
 /* tranning-execrise */
 
 .tranning-execrise-img{
@@ -726,12 +732,11 @@ body{
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
-/* gym-equipment-price */
+/* gym-equipment-price-unique-section */
 
 .gym-equipment-price{
     width: 1060px;
     height: 600px;
-    border: 2px solid red;
     background-color: rgba(62, 54, 54, 0.3);
     margin: 0 auto;
     margin-top: 175px;
@@ -755,11 +760,11 @@ body{
     margin-left: -25px;
 }
 .gym-equipment-card-1{
-    width: 300px;
+    width: 290px;
     height: 430px;
+    border: 1px solid rgba(159, 146, 146, 0.259);
     margin-left: 20px;
     margin-top: 50px;
-    border: 2px solid red;
     background-color: rgba(178, 158, 158, 0.062);
     border-radius: 15px;
     box-shadow: 2px 2px 2px 2px rgba(159, 146, 146, 0.259);
@@ -770,6 +775,7 @@ body{
     margin-top: 5px;
 }
 .rating-star-1{
+    margin-left: 5px;
     gap: 15px;
     color: gold;
 }
@@ -782,9 +788,9 @@ body{
 .gym-equipment-card-2{
     width: 300px;
     height: 430px;
+    border: 1px solid rgba(159, 146, 146, 0.259);
     margin-left: 20px;
     margin-top: 50px;
-    border: 2px solid red;
     background-color: rgba(178, 158, 158, 0.062);
     border-radius: 15px;
     box-shadow: 2px 2px 2px 2px rgba(159, 146, 146, 0.259);
@@ -795,6 +801,7 @@ body{
     margin-top: 5px;
 }
 .rating-star-2{
+    margin-left: 5px;
     gap: 15px;
     color: gold;
 }
@@ -807,9 +814,9 @@ body{
 .gym-equipment-card-3{
     width: 300px;
     height: 430px;
+    border: 1px solid rgba(159, 146, 146, 0.259);
     margin-left: 20px;
     margin-top: 50px;
-    border: 2px solid red;
     background-color: rgba(178, 158, 158, 0.062);
     border-radius: 15px;
     box-shadow: 2px 2px 2px 2px rgba(159, 146, 146, 0.259);
@@ -820,6 +827,7 @@ body{
     margin-top: 5px;
 }
 .rating-star-3{
+    margin-left: 5px;
     gap: 15px;
     color: gold;
 }
