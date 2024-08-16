@@ -612,7 +612,7 @@ body{
 }
 .meet-team-img{
     width: 1060px;
-    height: 720px;
+    height: 620px;
     margin-top: 58px;
     display: grid;
     border-radius: 25px;
@@ -645,66 +645,6 @@ body{
     font-size: 0.875rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
-}
-.rating-star-1{
-    gap: 15px;
-    color: gold;
-}
-.rating{
-    color: rgba(255, 255, 255, 0.5);
-}
-.rating-star-1 h4{
-    color: #FFFFFF;
-}
-.rating-star-2{
-    gap: 15px;
-    color: gold;
-}
-.rating{
-    color: rgba(255, 255, 255, 0.5);
-}
-.rating-star-2 h4{
-    color: #FFFFFF;
-}
-.rating-star-3{
-    gap: 15px;
-    color: gold;
-}
-.rating{
-    color: rgba(255, 255, 255, 0.5);
-}
-.rating-star-3 h4{
-    color: #FFFFFF;
-}
-.rating-star-4{
-    gap: 15px;
-    color: gold;
-}
-.rating{
-    color: rgba(255, 255, 255, 0.5);
-}
-.rating-star-4 h4{
-    color: #FFFFFF;
-}
-.rating-star-5{
-    gap: 15px;
-    color: gold;
-}
-.rating{
-    color: rgba(255, 255, 255, 0.5);
-}
-.rating-star-5 h4{
-    color: #FFFFFF;
-}
-.rating-star-6{
-    gap: 15px;
-    color: gold;
-}
-.rating{
-    color: rgba(255, 255, 255, 0.5);
-}
-.rating-star-6 h4{
-    color: #FFFFFF;
 }
 .meet-team-card-2{
     position: relative;
@@ -785,6 +725,109 @@ body{
     font-size: 0.875rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+}
+/* gym-equipment-price */
+
+.gym-equipment-price{
+    width: 1060px;
+    height: 600px;
+    border: 2px solid red;
+    background-color: rgba(62, 54, 54, 0.3);
+    margin: 0 auto;
+    margin-top: 175px;
+}
+.gym-equipment-text h1{
+    color: #FFFFFF;
+    font-size: 2.50rem;
+    font-weight: 900;
+    text-align: center;
+}
+.gym-equipment-text p{
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+.gym-equipment-card{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -25px;
+}
+.gym-equipment-card-1{
+    width: 300px;
+    height: 430px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border: 2px solid red;
+    background-color: rgba(178, 158, 158, 0.062);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(159, 146, 146, 0.259);
+}
+.humble{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.rating-star-1{
+    gap: 15px;
+    color: gold;
+}
+.rating{
+    color: rgba(255, 255, 255, 0.5);
+}
+.rating-star-1 h4{
+    color: #FFFFFF;
+}
+.gym-equipment-card-2{
+    width: 300px;
+    height: 430px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border: 2px solid red;
+    background-color: rgba(178, 158, 158, 0.062);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(159, 146, 146, 0.259);
+}
+.humble{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.rating-star-2{
+    gap: 15px;
+    color: gold;
+}
+.rating{
+    color: rgba(255, 255, 255, 0.5);
+}
+.rating-star-2 h4{
+    color: #FFFFFF;
+}
+.gym-equipment-card-3{
+    width: 300px;
+    height: 430px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border: 2px solid red;
+    background-color: rgba(178, 158, 158, 0.062);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(159, 146, 146, 0.259);
+}
+.humble{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.rating-star-3{
+    gap: 15px;
+    color: gold;
+}
+.rating{
+    color: rgba(255, 255, 255, 0.5);
+}
+.rating-star-3 h4{
+    color: #FFFFFF;
 }
 /* footer-container */
 
